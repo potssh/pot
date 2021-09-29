@@ -20,7 +20,6 @@ export default class ConsoleView extends React.Component {
             windowsMode: true,
             scrollback: 100,
             allowTransparency: true
-            //fontFamily:"黑体,sans-serif"
         }
 
     }
@@ -191,7 +190,6 @@ export default class ConsoleView extends React.Component {
         })
 
         term.focus();
-        term.onResize(function () { });
 
         socket.on('sshdata', function (msg) {
             if (typeof msg === 'string') {

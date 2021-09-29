@@ -1,6 +1,6 @@
 {
-    "name": "OT",
-    "version": "0.0.1",
+    "name": "OT-SSH",
+    "version": "0.9.1",
     "author": "zhangdazhi",
     "license": "MIT",
     "description": "web ssh",

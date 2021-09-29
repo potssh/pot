@@ -1,0 +1,493 @@
+
+#myiframe {
+			border: 0px solid #222;
+        }
+
+.span-padding{
+    padding: 5px;
+}
+.span-padding-right{
+    padding-right: 12px;
+}
+.class-detail{
+    margin: 5px;
+    width: 100%;
+}
+
+.span-padding-left{
+    padding-left: 102px;
+}
+
+#res_tree{
+     overflow: auto;
+     min-height: 200px;
+     height: calc(100vh - 151px);
+}
+.ide-floder{
+    padding: 0px;
+}
+
+
+.ide-logo{
+   color: #FF8800;
+   font-weight:bold;
+   text-shadow:5px 2px 6px #aaa;
+}
+
+.ide-user{
+   text-align: right;
+   font-size:16px;
+   padding-top:8px;
+   padding-right: 18px;
+}
+
+.tree-root{
+    width:100%;
+    height:30px;
+    font-weight:bold;
+}
+
+.tree-fileName{
+    padding-right: 10px;
+    overflow:hidden;
+    white-space:nowrap;
+    height:26px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: calc(100% - 80px );
+    color: #d3d3d3;
+    padding-top: 3px;
+}
+
+.tree-button{
+    overflow:hidden;
+    height:26px;
+    display: inline-block;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+
+.no-rolling{
+    position:fixed; 
+    top:110px;
+    left:140px;
+}
+
+.no-rolling1{
+    position:fixed; 
+    top:10px;
+    left:2px;
+    -webkit-app-region: no-drag;
+    z-index: 1000;
+}
+
+.tree-op{
+    padding-left: 15px;
+}
+
+.tree-edit{
+    width: 80%;
+    height: 24px;
+    border: 1px solid #333;
+    padding:2px;
+    background-color: #444;
+    padding-left:4px;
+
+}
+
+.tree-item{
+    background-color:#333;
+}
+.tree-item-selected{
+    background-color:#094171;
+}
+.zip{
+    color: #14c440;
+}
+.word{
+    color: #9baeff;
+}
+.audio{
+    color: #d818c8;
+}
+.movie{
+    color: #d8c518;
+}
+.text{
+    color: #97fff1;
+}
+.powerpoint{
+    color: #e7810c;
+}
+.pdf{
+    color: #e2473c;
+}
+.excel{
+    color: #06f154;
+}
+.picture{
+    color: #d47cfd;
+}
+.code{
+    color: #fffaad;
+}
+
+
+.tree-folder{
+    width:100%;
+    height:28px;
+    cursor:pointer;
+    color: #eee;
+}
+
+.tree-padding{
+    padding-right:4px;
+    height:26px;
+    padding-left:6px;
+    padding-top:6px;
+    vertical-align: top;
+}
+
+.menutool{
+    padding: 5px;
+}
+
+.manager-title{
+    background-color: #444444;
+    color: #fff;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.manager-detail{
+    padding: 8px;
+    height: 23px;
+    line-height: 23px;
+}
+
+/* editor css */
+
+.toolbar{
+    padding-left: 2px;
+    /* padding-bottom: 3px; */
+    /* padding-right: 4px; */
+    background-color: rgba(22, 22, 22, 0.8);
+    margin: 0px;
+}
+
+.tab-delete{
+    padding-left: 8px;
+    cursor: pointer;
+}
+.tab-delete-focus{
+    color: #FF0000;
+}
+
+.editor-frame{
+    width: 100%;
+    height: calc(100vh - 191px);
+}
+.editor-tab-content{
+    height:423px;
+}
+
+.space-container{
+    height: calc(100vh - 120px);
+}
+
+.terminal-container{
+    padding-left: 4px;
+    height:calc(100vh - 204px);
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #eeeeee;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+a {
+    color: #eee;
+}
+a:hover,a:visited,a:focus {
+    color: #eee;
+    text-decoration:none;
+}
+
+.panel {
+    background-color: rgba(22, 22, 22, 0.7);
+}
+
+.panel-default {
+    border-color: rgba(22, 22, 22, 0.7);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid rgba(22, 22, 22, 0.8);
+}
+
+#tabs{
+    height:calc(100vh - 104px);
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    color: #eee;
+    cursor: default;
+    background-color: rgba(22, 22, 22, 0.7);
+    border: 1px solid rgba(22, 22, 22, 0.7);
+    border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #eee;
+}
+
+.panel-default>.panel-heading {
+    background-image: linear-gradient(to bottom, #444 0, #424242 100%);
+}
+
+.panel-default>.panel-heading {
+    color: #eee;
+    background-color: rgba(22, 22, 22, 0.7);
+    border-color: rgba(22, 22, 22, 0.6);
+}
+
+.btn-default {
+    color: #fff;
+    background-color: #222;
+    border-color: #666;
+    background-image: none;
+    text-shadow: none;
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    background-color: #111;
+    color: #fff;
+}
+
+.thumbnail {
+    background-color: #333;
+    border: 1px solid #333;
+    padding: 0px;
+}
+
+.thumbnail .caption {
+    color: #eee;
+}
+
+.tool {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+    background-color: rgba(33, 33, 33, 0.7);
+}
+
+.right {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    width: 26px;
+    height: 26px;
+    font-size: 9px;
+    padding-top: 5px;
+    padding-left: 4px;
+    border: 1px solid #333;
+    -webkit-app-region: no-drag;
+    z-index: 1000;
+}
+
+.right1 {
+    right: 20px;
+}
+
+.right2 {
+    right: 55px;
+}
+
+.right3 {
+    right: 90px;
+}
+
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #444444;
+}
+
+.input-group-addon {
+    color: #eee;
+    background-color: #555;
+    border: 1px solid #444;
+}
+
+.form-control {
+    color: #eee;
+    background-color: #555;
+    border: 1px solid #444;
+}
+.dropdown-menu{
+    background-color: #444;
+}
+.dropdown-menu>li>a{
+    color: #eee;
+}
+
+.downloadcss{
+    position: absolute;
+    top: 6px;
+    left: 35px;
+    width: 400px;
+    height: 26px;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-left: 4px;
+    -webkit-app-region: no-drag;
+    overflow: hidden;
+    display: block;
+}
+
+.badge{
+    margin-left: 2px;
+    color: #000;
+    background-color: floralwhite;
+}
+
+.dropdown-menu .divider{
+    background-color: #555;
+}
+
+.list-group-item{
+    background-color: #2e2e2e;
+    border: 1px solid #3e3e3e;
+}
+
+.list-group{
+    margin-bottom: 4px;
+}
+
+#fileListStatus{
+    display:none;
+    width: 500px;
+    top: 40px;
+    left: 25px;
+    position: absolute;
+    max-height: 350px;
+    overflow: auto;
+    z-index: 1000;
+}
+.filelist-cursor{
+    cursor: pointer;
+}
+
+#userListStatus{
+    display:none;
+    width: 120px;
+    top: 80px;
+    left: calc(100% - 270px );
+    position: absolute;
+    height: 295px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.modalstyle-header{
+    background-color: #323232;
+    border-bottom: 1px solid #3e3e3e;
+}
+.modalstyle-body{
+    background-color: #2b2b2b;
+    min-height: 200px;
+}
+.modalstyle-footer{
+    border-top: 1px solid #363636;
+    background-color: #303030;
+}
+
+.check-font-color{
+    color: #999;
+    font-family:YouYuan,"Microsoft YaHei",微软雅黑
+}
+
+#promptPanel{
+    margin: 0px 2px 0px 2px;
+    padding: 12px 5px 5px 10px;
+    background: linear-gradient(to bottom, rgba(33, 33, 33,0.9) 2%, rgba(55, 55, 55,0.9) 100%);
+    color: #fff;
+    width: calc(100% - 33px);
+    top: 42px;
+    position: absolute;
+    height: 45px;
+    left: 14px;
+    display: none;
+    font-size: 14px;
+    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    border-radius:5px;
+    border: 1px solid rgba(55, 55, 55,0.4);
+    overflow:hidden;
+}
+#promptTitle{
+    padding-bottom: 5px;
+}
+
+#prompt_black { 
+    border-bottom:1px solid #444;
+    background-color: #111;
+    padding: 2px 2px 2px 10px;
+    margin: 2px;
+    color: #aaa;
+}
+#prompt_white { 
+    border-bottom:1px solid #444;
+    background-color: #222;
+    padding: 2px 2px 2px 10px;
+    margin: 2px;
+    color: #aaa;
+}
+.selt_title{
+    background-color: rgba(33, 33, 33, 0.6);
+    font-size: 14px;
+    padding: 2px 10px 2px 10px;
+}
+
+.button-active{
+    background-color: #000;
+    border-color: #666;
+    color: #fff;
+    background:linear-gradient(to bottom, #111 5%, #555 100%);
+}
+
+.button-inactivity {
+    color: #a1a1a1;
+    background:linear-gradient(to bottom, #555 5%, #111 100%);
+}
+
+.alone-space{
+    height: calc(100vh - 205px);
+    overflow: auto;
+}
+
+.badge-background{
+    background-color: #666 !important
+}
+

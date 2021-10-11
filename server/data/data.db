@@ -1,2 +1,3 @@
 {"team":"研发","name":"本地Ubuntu","host":"10.62.16.117","port":"22","username":"zhangdazhi","title":"ssh 服务器地址配置","path":"/home/zhangdazhi","own":"admin","sdate":"2021-09-26","_id":"TPvBygRUllWDGqdE","password":"033a441ac6908bb1fe66899a46ae6bb8"}
 {"team":"生产","name":"腾讯云","host":"122.51.193.30","port":"22","username":"root","password":"c306a6f282d1d49a851b28a348f55c87","title":"ssh 服务器地址配置","path":"/root/","own":"admin","sdate":"2021-09-26","_id":"hPAT5GYh3uPrFQcD"}
+{"team":"研发","name":"本地Ubuntu","host":"10.62.16.117","port":"22","username":"zhangdazhi","title":"ssh 服务器地址配置","path":"/","own":"admin","sdate":"2021-09-26","_id":"TPvBygRUllWDGqdE","password":"033a441ac6908bb1fe66899a46ae6bb8"}
